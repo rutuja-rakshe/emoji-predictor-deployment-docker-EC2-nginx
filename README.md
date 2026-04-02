@@ -14,7 +14,7 @@ This project deploys an LSTM-based emoji prediction model using FastAPI, Docker,
 - TensorFlow/Keras
 
 ## 🚀 Features
-- REST API for emoji prediction
+- FAST API for emoji prediction
 - Dockerized application
 - Live deployment on AWS
 
@@ -35,10 +35,12 @@ This project deploys an LSTM-based emoji prediction model using FastAPI, Docker,
 - Nginx
 - TensorFlow/Keras
 
-## 🚀 Features
-- REST API for emoji prediction
-- Dockerized application
-- Live deployment on AWS
+## 📚 Key Learnings
+
+- Docker containerization
+- AWS EC2 deployment
+- Nginx reverse proxy setup
+- Debugging real-world errors
 
 ## ▶️ Run Locally
 ```bash
