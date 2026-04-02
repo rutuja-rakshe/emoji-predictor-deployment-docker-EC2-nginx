@@ -1,63 +1,47 @@
-## 🎯 Demo Output
+# 🚀 Emoji Predictor Deployment (FastAPI + Docker + AWS)
 
-Test Results:
-I am very happy → 😊
-I hate this → 😡
-this is bad → 😢
+## 📌 Overview
+This project deploys an LSTM-based emoji prediction model using FastAPI, Docker, and AWS EC2 with Nginx.
 
-## 💼 Key Highlights
+## ⚙️ Tech Stack
+- FastAPI
+- Docker
+- AWS EC2
+- Nginx
+- TensorFlow/Keras
 
-- Built LSTM-based NLP model for emoji prediction
-- Implemented tokenization, padding, and sequence modeling
-- Achieved accurate classification on custom dataset
+## 🚀 Features
+- REST API for emoji prediction
+- Dockerized application
+- Live deployment on AWS
 
-# 😊 Emoji Predictor using Deep Learning
-
-## 📌 Project Overview
-
-This project uses an LSTM-based deep learning model to predict emojis from input text.
-
-## 🧠 Technologies Used
-
-* Python
-* TensorFlow / Keras
-* NLP (Tokenization, Padding)
-* LSTM
-
-## ⚙️ How It Works
-
-Text → Tokenization → Padding → LSTM → Emoji Prediction
-
-## 📊 Results
-
-* Model successfully classifies text into:
-
-  * 😊 Happy
-  * 😢 Sad
-  * 🎉 Party
-  * 😡 Angry
-
-## ▶️ How to Run
-
-1. Install dependencies:
-
-```
+## ▶️ Run Locally
+```bash
 pip install -r requirements.txt
-```
+uvicorn app:app --reload
 
-2. Run notebook:
+# 🚀 Emoji Predictor Deployment (FastAPI + Docker + AWS)
 
-```
-model.ipynb
-```
+## 📌 Overview
+This project deploys an LSTM-based emoji prediction model using FastAPI, Docker, and AWS EC2 with Nginx.
 
-## 💡 Example
+## ⚙️ Tech Stack
+- FastAPI
+- Docker
+- AWS EC2
+- Nginx
+- TensorFlow/Keras
 
-Input: "I hate this"
-Output: 😡
+## 🚀 Features
+- REST API for emoji prediction
+- Dockerized application
+- Live deployment on AWS
 
-## 🚀 Future Improvements
+## ▶️ Run Locally
+```bash
+pip install -r requirements.txt
+uvicorn app:app --reload
 
-* Use larger dataset
-* Add Streamlit UI
-* Deploy online
+docker build -t emoji-api .
+docker run -p 8000:8000 emoji-api
+
